@@ -10,8 +10,9 @@
 
 
 ### 2. Create a survey form with Fields; First Name, Last Name, Date of Birth, Country (dropdown), Gender (checkbox), Profession, email, and mobile number. All the input fields are necessary to submit the form. Create two buttons Submit and Reset.
-![Survey Form-1](https://github.com/DineshThanneeru2021/CloudVandana-Coding-Assignment-/assets/91653299/67ef520c-f8fa-4313-8650-e8f2d60d1439)
-![Survey Form-2](https://github.com/DineshThanneeru2021/CloudVandana-Coding-Assignment-/assets/91653299/7213032c-3a0f-4758-bfc5-c3240b1db291)
+![survey-1](https://github.com/DineshThanneeru2021/CloudVandana-Coding-Assignment-/assets/91653299/a7f6cb49-b6df-4819-8475-de1480b331c6)
+![survey-2](https://github.com/DineshThanneeru2021/CloudVandana-Coding-Assignment-/assets/91653299/179916f4-2edf-4ba2-a06a-82e021744f25)
+
 
 
 

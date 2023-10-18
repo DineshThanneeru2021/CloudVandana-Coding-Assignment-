@@ -1,0 +1,15 @@
+function sortArr(arr) {
+  return arr.sort((a, b) => b - a);
+}
+
+const inputArr = prompt('Enter numbers separated by space:'); 
+const numbers = inputArr.split(' ').map(Number); 
+
+const sorted = sortArr(numbers);
+
+console.log('After sorting in descending order:', sorted);
+
+// Sample Output 
+
+// Enter numbers separated by space:2 4 7 5
+// After sorting in descending order: [ 7, 5, 4, 2 ]

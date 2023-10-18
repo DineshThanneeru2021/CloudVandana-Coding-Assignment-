@@ -1,0 +1,20 @@
+
+function reverse(sentence) {
+  const words = sentence.split(' ');
+  const reversedWords = words.map(word => {
+    return word.split('').reverse().join('');
+  });
+  const reversedSentence = reversedWords.join(' ');
+  return reversedSentence;
+}
+
+const input = prompt('Enter a sentence:');
+const reversed = reverse(input);
+
+
+console.log('Reversed sentence:', reversed);
+
+// Sample Output
+// Enter a sentence:This is a sunny day
+// Reversed sentence: sihT si a ynnus yad
+

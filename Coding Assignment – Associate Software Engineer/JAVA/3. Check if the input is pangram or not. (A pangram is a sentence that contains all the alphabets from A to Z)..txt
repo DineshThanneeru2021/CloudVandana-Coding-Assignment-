@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+		System.out.print("Enter input String : ");
+        	Scanner sc=new Scanner(System.in);
+        	String s=sc.nextLine();
+        	s= s.toLowerCase();
+ 
+        	boolean flag = true;
+ 
+        
+        	for (char ch = 'a'; ch <= 'z'; ch++) {
+ 
+            
+            		if (!s.contains(String.valueOf(ch))) {
+                		flag = false;
+                		break;
+            		}
+        	}
+ 
+        
+        	if (flag)
+            	    System.out.println("Given String "+s+" is a Pangram ");
+        	else
+            	    System.out.println("Given String "+s+" is not a Pangram");
+        
+	}
+}

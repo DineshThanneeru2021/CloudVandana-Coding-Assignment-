@@ -1,0 +1,40 @@
+body{
+    background-color:cyan;
+}
+
+  table, tr, td {
+    border: none;
+}
+  
+table.tbl{
+    position: absolute;
+    background-color:black;
+    top: 45%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+input[type="button"]{
+    color: white;
+    cursor: pointer;
+    background-color:black;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 60px 10px 0px;
+}
+input[type="text"]{
+    color: black;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+}
+#clear{
+    background-color:green;
+    border: 1px solid #ff9fa8;
+}
